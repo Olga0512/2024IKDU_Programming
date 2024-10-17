@@ -28,12 +28,22 @@ public class MyFirstVariableAndMethod : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        /*  currentAge = currentAge + ageIncrease;
+        float aa=20.0f/6.0f;
+        float bb=10.0f/3.0f;
+          if (aa == bb)
+		  {
+			Debug.Log("aa and bb are equal");
+		  }
+		  else
+		  {
+			Debug.Log("aa and bb are not equal");
+		  }
+    
+        currentAge = currentAge + ageIncrease;
           Debug.Log(currentAge);
           myName = myName + mySecondName;
           Debug.Log(myName);
-        */
+        
         
         Debug.LogFormat("a={0}, b= {1}", a, b);
         (a, b) = Swap(a, b);
